@@ -1,0 +1,23 @@
+[
+  {
+    "id": "web-dev",
+    "title": "Web Developer",
+    "type": "Full-time",
+    "location": "Remote",
+    "summary": "Membangun landing page dan fitur belajar dengan React dan backend ringan."
+  },
+  {
+    "id": "ui-ux",
+    "title": "UI/UX Designer",
+    "type": "Full-time",
+    "location": "Hybrid",
+    "summary": "Merancang alur belajar yang mudah dipahami, dari riset sampai prototipe Figma."
+  },
+  {
+    "id": "content-writer",
+    "title": "Content Writer",
+    "type": "Contract",
+    "location": "On-site",
+    "summary": "Menulis panduan karier dan materi kelas dengan bahasa yang jelas dan membumi."
+  }
+]
