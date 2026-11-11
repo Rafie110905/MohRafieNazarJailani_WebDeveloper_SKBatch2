@@ -3,6 +3,7 @@
 Section landing page rekrutmen yang responsif dan interaktif, dibuat untuk Mini Assignment Web Developer SK Batch 2. Berisi headline, tiga kartu posisi (job title, employment type, location), dan CTA lamaran.
 
 **Live preview:** [https://moh-rafie-nazar-jailani-web-develop.vercel.app/]
+
 **Repository:** https://github.com/Rafie110905/MohRafieNazarJailani_WebDeveloper_SKBatch2
 
 ## Cara menjalankan secara lokal
