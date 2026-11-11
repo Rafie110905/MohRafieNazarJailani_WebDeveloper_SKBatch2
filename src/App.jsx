@@ -21,7 +21,7 @@ export default function App() {
             </nav>
           </header>
 
-          <section id="beranda" aria-labelledby="recruit-title" className="relative mt-5 overflow-hidden rounded-[2rem] bg-[#eaf0ff] px-6 py-10 sm:px-10 sm:py-14 lg:px-16 lg:py-16">
+          <section id="beranda" aria-labelledby="recruit-title" className="relative mt-5 overflow-hidden rounded-[1.5rem] bg-[#eaf0ff] px-5 py-7 sm:rounded-[2rem] sm:px-10 sm:py-14 lg:px-16 lg:py-16">
             <div aria-hidden="true" className="absolute -right-24 -top-32 h-96 w-96 rounded-full bg-[#c7d8ff]/70 blur-3xl" />
             <div aria-hidden="true" className="absolute -bottom-48 right-1/3 h-80 w-80 rounded-full bg-[#fff0c8]/70 blur-3xl" />
             <div className="relative grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
@@ -35,15 +35,15 @@ export default function App() {
                   <span aria-hidden="true" className="h-2 w-2 rounded-full bg-[#1767e8]" />
                   Kami sedang mencari talenta
                 </span>
-                <h1 id="recruit-title" className="mt-6 text-[2.7rem] font-extrabold leading-[1.08] tracking-[-0.045em] sm:text-6xl lg:text-[4.25rem]">
+                <h1 id="recruit-title" className="mt-4 text-[2.25rem] font-extrabold leading-[1.1] tracking-[-0.045em] sm:mt-6 sm:text-6xl lg:text-[4.25rem]">
                   Bangun masa depan
                   <br />
                   <span className="text-[#1767e8]">karier bersama kami.</span>
                 </h1>
-                <p className="mt-6 max-w-xl text-base leading-7 text-[#525b6b] sm:text-lg sm:leading-8">
+                <p className="mt-4 max-w-xl text-[0.95rem] leading-6 text-[#525b6b] sm:mt-6 sm:text-lg sm:leading-8">
                   Kami membantu lebih banyak orang melangkah ke dunia kerja. Yuk, ciptakan pengalaman belajar dan karier yang berdampak bersama tim Sekolah Karir.
                 </p>
-                <a href="#lowongan" className="mt-8 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#1767e8] px-6 py-3 font-bold text-white shadow-lg shadow-blue-900/15 transition hover:-translate-y-0.5 hover:bg-[#1058ce] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1767e8]">
+                <a href="#lowongan" className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#1767e8] px-6 py-3 font-bold text-white shadow-lg shadow-blue-900/15 transition hover:-translate-y-0.5 hover:bg-[#1058ce] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1767e8] sm:mt-8 sm:w-auto">
                   Jelajahi posisi terbuka
                   <svg aria-hidden="true" viewBox="0 0 20 20" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 10h12M11 5l5 5-5 5" />
@@ -85,7 +85,7 @@ export default function App() {
             </div>
           </section>
 
-          <section id="lowongan" aria-labelledby="roles-title" className="scroll-mt-8 py-14 sm:py-16">
+          <section id="lowongan" aria-labelledby="roles-title" className="scroll-mt-8 py-10 sm:py-16">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#1767e8]">Temukan peranmu</p>
@@ -93,7 +93,7 @@ export default function App() {
               </div>
               <p className="text-sm font-medium text-[#697181]">{roles.length} posisi terbuka</p>
             </div>
-            <ul className="mt-7 grid grid-cols-1 gap-5 md:grid-cols-3">
+            <ul className="mt-6 grid grid-cols-1 gap-4 md:mt-7 md:grid-cols-3 md:gap-5">
               {roles.map((role, index) => (
                 <RoleCard key={role.id} role={role} index={index} />
               ))}
@@ -105,7 +105,7 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.4 }}
-              className="mt-8 flex flex-col items-start gap-5 rounded-[1.5rem] bg-[#171a22] p-6 text-white sm:flex-row sm:items-center sm:justify-between sm:p-8"
+              className="mt-6 flex flex-col items-start gap-5 rounded-[1.5rem] bg-[#171a22] p-5 text-white sm:mt-8 sm:flex-row sm:items-center sm:justify-between sm:p-8"
             >
               <div>
                 <h2 className="text-xl font-extrabold">Belum menemukan peran yang cocok?</h2>

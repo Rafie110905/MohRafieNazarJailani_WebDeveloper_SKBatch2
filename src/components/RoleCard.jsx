@@ -38,7 +38,7 @@ export default function RoleCard({ role, index }) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.3 + index * 0.15, ease: 'easeOut' }}
     >
-      <article className="group relative flex h-full flex-col gap-5 overflow-hidden rounded-[1.5rem] border border-[#e8e5de] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#c5d5f7] hover:shadow-xl hover:shadow-slate-950/10 sm:p-7">
+      <article className="group relative flex h-full flex-col gap-4 overflow-hidden rounded-[1.5rem] border border-[#e8e5de] bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#c5d5f7] hover:shadow-xl hover:shadow-slate-950/10 sm:gap-5 sm:p-7">
         <div aria-hidden="true" className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${accentStyle[index % accentStyle.length]}`} />
         <div className="flex items-start justify-between gap-3">
           <div className="flex flex-wrap items-center gap-2 text-xs font-bold">
