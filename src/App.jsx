@@ -15,7 +15,7 @@ export default function App() {
             <nav aria-label="Navigasi utama" className="flex shrink-0 items-center gap-2 sm:gap-5">
               <a href="#beranda" className="hidden text-sm font-semibold text-[#5b6475] transition hover:text-[#1767e8] sm:inline-flex">Tentang tim</a>
               <a href="#lowongan" className="hidden text-sm font-semibold text-[#5b6475] transition hover:text-[#1767e8] sm:inline-flex">Posisi terbuka</a>
-              <a href="#lowongan" className="inline-flex min-h-11 items-center rounded-full bg-[#e8edf6] px-5 py-2.5 text-sm font-bold text-[#171a22] transition hover:bg-[#dce5f4] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1767e8]">
+              <a href="#lowongan" className="inline-flex min-h-11 items-center rounded-full bg-[#e8edf6] px-5 py-2.5 text-sm font-bold text-[#171a22] transition active:scale-[0.98] hover:bg-[#dce5f4] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1767e8]">
               Lihat posisi
               </a>
             </nav>
@@ -43,7 +43,7 @@ export default function App() {
                 <p className="mt-4 max-w-xl text-[0.95rem] leading-6 text-[#525b6b] sm:mt-6 sm:text-lg sm:leading-8">
                   Kami membantu lebih banyak orang melangkah ke dunia kerja. Yuk, ciptakan pengalaman belajar dan karier yang berdampak bersama tim Sekolah Karir.
                 </p>
-                <a href="#lowongan" className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#1767e8] px-6 py-3 font-bold text-white shadow-lg shadow-blue-900/15 transition hover:-translate-y-0.5 hover:bg-[#1058ce] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1767e8] sm:mt-8 sm:w-auto">
+                <a href="#lowongan" className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#1767e8] px-6 py-3 font-bold text-white shadow-lg shadow-blue-900/15 transition hover:-translate-y-0.5 hover:bg-[#1058ce] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1767e8] sm:mt-8 sm:w-auto">
                   Jelajahi posisi terbuka
                   <svg aria-hidden="true" viewBox="0 0 20 20" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 10h12M11 5l5 5-5 5" />
@@ -111,7 +111,7 @@ export default function App() {
                 <h2 className="text-xl font-extrabold">Belum menemukan peran yang cocok?</h2>
                 <p className="mt-2 max-w-xl leading-6 text-[#c4c9d2]">Ceritakan hal yang ingin kamu bangun bersama Sekolah Karir.</p>
               </div>
-              <a href="mailto:karir@example.com?subject=Lamaran%20Sekolah%20Karir" className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#f2c65d] px-6 py-3 font-bold text-[#171a22] transition hover:-translate-y-0.5 hover:bg-[#ffda7c] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white sm:w-auto">
+              <a href="mailto:karir@example.com?subject=Lamaran%20Sekolah%20Karir" className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#f2c65d] px-6 py-3 font-bold text-[#171a22] transition hover:-translate-y-0.5 hover:bg-[#ffda7c] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white sm:w-auto">
                 Kirim lamaran
                 <svg aria-hidden="true" viewBox="0 0 20 20" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M4 10h12M11 5l5 5-5 5" />

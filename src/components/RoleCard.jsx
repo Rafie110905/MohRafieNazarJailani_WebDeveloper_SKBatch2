@@ -63,7 +63,7 @@ export default function RoleCard({ role, index }) {
         <a
           href="#apply"
           aria-label={`Lamar sebagai ${role.title}`}
-          className="mt-auto inline-flex min-h-12 items-center justify-between gap-2 rounded-xl bg-[#f3f5f9] px-4 py-3 font-bold text-[#303847] transition-colors duration-200 hover:bg-[#1767e8] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1767e8]"
+          className="mt-auto inline-flex min-h-12 items-center justify-between gap-2 rounded-xl bg-[#f3f5f9] px-4 py-3 font-bold text-[#303847] transition-all duration-200 hover:bg-[#1767e8] hover:text-white active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1767e8]"
         >
           Lamar peran ini
           <ArrowIcon />
